@@ -42,10 +42,6 @@ Nothing as the current pipeline is built keeping scale in mind.
 __8. What would you do differently if the pipelines were run on a daily basis by 7am.__
 Since we are using Airflow, we just have to set `start_date` to incorporate the 7am runs in our DAG's `default_args`.
 
-__Data Model__
-
-![alt text](https://github.com/shivamgupta/airbnb-data-modeling/blob/master/img/Data_Model.jpg)
-
 
 # Command to Run
 1) First create RedShift cluster after setting credentials in the cfg file.
@@ -62,3 +58,8 @@ Contains DAG.
 
 __3. `plugins`__
 Contain operators and SQL queries
+
+
+# Data Model
+
+![alt text](https://github.com/shivamgupta/airbnb-data-modeling/blob/master/img/Data_Model.jpg)
