@@ -43,7 +43,7 @@ __8. What would you do differently if the pipelines were run on a daily basis by
 Since we are using Airflow, we just have to set `start_date` to incorporate the 7am runs in our DAG's `default_args`.
 
 __Data Model__
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/shivamgupta/airbnb-data-modeling/blob/master/img/Data_Model.jpg)
 
 
 # Command to Run
