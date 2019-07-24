@@ -31,7 +31,7 @@ After creating Amazon RedShift Cluster the ETL process runs as follows:
 
 The DAG looks like - 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/shivamgupta/airbnb-data-modeling/blob/master/img/DAG.png)
 
 __6. Propose how often the data should be updated and why.__
 Both the listings data and stays data should be updated daily. Given that new places are listed on the AirBnb platform everyday, we don't want to end up in a situation where we don't have record of a listings, or loose track of a booking. Streaming ETL pipeline would be ideal, but that's outside the scope of this project. We are using batch-processing.
